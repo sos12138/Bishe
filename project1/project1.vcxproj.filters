@@ -13,16 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="public">
+    <Filter Include="PublicUtils">
       <UniqueIdentifier>{19d39602-ec83-4f47-9c42-bc8624c56d59}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Log.h">
-      <Filter>public</Filter>
+      <Filter>PublicUtils</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
-      <Filter>public</Filter>
+      <Filter>PublicUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowProcess.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -30,6 +33,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowProcess.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

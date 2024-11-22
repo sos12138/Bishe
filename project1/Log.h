@@ -1,10 +1,8 @@
 #pragma once
-#include <iostream>
 #include <chrono>
 #include <ctime>
 #include <iomanip>
 #include <sstream>
-#include <thread>
 #define INF 0
 #define DBG 1
 #define ERR 2
